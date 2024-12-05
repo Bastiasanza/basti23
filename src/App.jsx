@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Importing the page components
 import Home from './pages/Home.jsx';
-import About from './pages/about.jsx';
+import About from './pages/About.jsx';
 import Hobbies from './pages/Hobbies.jsx';
 import Contact from './pages/Contact.jsx';
 import Education from './pages/Educ.jsx';
