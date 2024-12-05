@@ -4,3 +4,10 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
+/* Adjust background for mobile screens */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Fix issues with "fixed" on some mobile browsers */
+    }
+}
