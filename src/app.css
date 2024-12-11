@@ -1,0 +1,21 @@
+body {
+    background-image: url(./assets/download.gif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#border {
+    border: solid 2px;
+    border-radius: 50px;
+    margin: 30px;
+    color: rgb(209, 24, 24);
+}
+
+
+/* Adjust background for mobile screens */
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll; /* Fix issues with "fixed" on some mobile browsers */
+    }
+}
